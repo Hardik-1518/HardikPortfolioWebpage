@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/project3.png';
+import vartagram from '../assets/vartagram.jpg';
 import arrowLight from '../assets/arrow_light.png';
 import arrowDark from '../assets/arrow_dark.png';
 
@@ -20,7 +21,20 @@ const Projects = ({ theme, onPlaySnake }) => {
       primaryLabel: 'Live Demo',
       secondaryLink: 'https://github.com/Hardik-1518/Hardik-sSnakeGame_By_JS.git',
       secondaryLabel: 'GitHub',
-      playable: true, // Enables local play overlay button
+      playable: true,
+    },
+    {
+      title: 'VartaGram – Social Media Web App',
+      subheading: 'connect share varta',
+      image: vartagram,
+      desc: 'A full-stack MERN social media platform supporting user authentication via Clerk, multimedia posts, user connections, and real-time messaging. Developed REST APIs and integrated cloud image storage via ImageKit for scalable media handling and dynamic user discovery.',
+      tags: ['React', 'Node.js', 'MongoDB', 'Clerk', 'ImageKit', 'MERN Stack'],
+      category: 'web',
+      primaryLink: 'https://varta-gram.vercel.app/',
+      primaryLabel: 'Live Demo',
+      secondaryLink: 'https://github.com/Hardik-1518',
+      secondaryLabel: 'GitHub',
+      playable: false,
     },
     {
       title: 'Indian Car Racing 3D',
@@ -99,6 +113,11 @@ const Projects = ({ theme, onPlaySnake }) => {
             </div>
             <div className="project-info">
               <h3 className="project-card-title">{project.title}</h3>
+              {project.subheading && (
+                <p className="project-subheading" style={{ fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--accent)', fontWeight: 600, marginBottom: '0.8rem' }}>
+                  {project.subheading}
+                </p>
+              )}
               <p className="project-desc">{project.desc}</p>
               
               <div className="project-tags">

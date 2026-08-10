@@ -31,29 +31,38 @@ const About = ({ theme }) => {
             <div className="glass-card metric-card">
               <img src={expIcon} alt="Experience Icon" />
               <h3>Experience</h3>
-              <p>2+ Years Unity Development</p>
-              <p>1+ Years Web Development</p>
+              <p>Unity Dev (Multiplayer/3D)</p>
+              <p>Full-Stack Development</p>
             </div>
 
             <div className="glass-card metric-card">
               <img src={eduIcon} alt="Education Icon" />
               <h3>Education</h3>
-              <p>B.Tech CSE (3rd Year)</p>
-              <p>Senior Secondary CBSE</p>
+              <p>Computer Science Graduate</p>
+              <p>Senior Secondary (CBSE)</p>
             </div>
           </div>
 
           <div className="about-bio">
             <p>
-              I am a passionate Game Developer and Web Developer with hands-on experience in game mechanics, 
-              game design, level design, and game testing. I specialize in developing optimized and scalable 
-              solutions using Unity and programming languages like Python, C, C++, and Java.
+              I am a Computer Science graduate passionate about building intelligent products that combine 
+              software engineering, artificial intelligence, and great user experiences.
             </p>
             <p>
-              In addition to game development, I have experience in web development, working with both frontend 
-              and backend technologies to create dynamic and responsive web applications. I enjoy building 
-              interactive digital experiences and constantly refining my skills to stay updated with the latest 
-              industry trends.
+              My journey started in game development, where I worked professionally on multiplayer, casual, 
+              and 3D games using Unity and C#. That experience taught me how to build scalable systems, 
+              optimize performance, collaborate in teams, and deliver products under real-world constraints.
+            </p>
+            <p>
+              Today, my focus has shifted toward full-stack development and artificial intelligence. I enjoy 
+              building products that solve meaningful problems using modern technologies such as React, 
+              Node.js, Express, MongoDB, Firebase, and AI APIs and frameworks.
+            </p>
+            <p>
+              Beyond engineering, I am also a content creator with over 100 videos across technology, 
+              entertainment, and educational topics. Content creation has strengthened my communication, 
+              storytelling, and audience-building skills—abilities that I believe are equally important 
+              in technology leadership.
             </p>
           </div>
 

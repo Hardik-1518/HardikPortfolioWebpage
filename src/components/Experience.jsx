@@ -8,20 +8,37 @@ const Experience = ({ theme }) => {
   const checkIcon = theme === 'dark' ? checkmarkDark : checkmarkLight;
   const arrowIcon = theme === 'dark' ? arrowDark : arrowLight;
 
-  const webSkills = [
-    { name: 'HTML', level: 'Experienced' },
-    { name: 'CSS', level: 'Experienced' },
-    { name: 'JavaScript', level: 'Intermediate' },
-    { name: 'Node JS', level: 'Basic' },
-    { name: 'Git/GitHub', level: 'Basic' },
-    { name: 'SQL', level: 'Intermediate' },
+  const fullStackSkills = [
+    { name: 'React.js', level: 'Experienced' },
+    { name: 'Node.js', level: 'Intermediate' },
+    { name: 'Express.js', level: 'Intermediate' },
+    { name: 'MongoDB', level: 'Intermediate' },
+    { name: 'Firebase', level: 'Intermediate' },
+    { name: 'SQL Databases', level: 'Intermediate' },
+  ];
+
+  const aiSkills = [
+    { name: 'Generative AI', level: 'Experienced' },
+    { name: 'LLM Fine-Tuning', level: 'Intermediate' },
+    { name: 'AI APIs Integrations', level: 'Experienced' },
+    { name: 'Agentic Workflows', level: 'Intermediate' },
+    { name: 'LangChain & RAG', level: 'Basic' },
   ];
 
   const gameSkills = [
-    { name: 'Unity Engine', level: 'Intermediate' },
-    { name: 'C/C++/C#', level: 'Intermediate' },
-    { name: 'Python', level: 'Intermediate' },
+    { name: 'Unity Engine', level: 'Experienced' },
+    { name: 'Game Architecture', level: 'Experienced' },
+    { name: 'Multiplayer Systems', level: 'Intermediate' },
+    { name: '2D/3D Dynamics', level: 'Experienced' },
+    { name: 'Physics & Graphics', level: 'Intermediate' },
+  ];
+
+  const programmingLanguages = [
+    { name: 'C++', level: 'Intermediate' },
+    { name: 'C#', level: 'Experienced' },
     { name: 'Java', level: 'Intermediate' },
+    { name: 'Python', level: 'Experienced' },
+    { name: 'JavaScript', level: 'Experienced' },
   ];
 
   return (
@@ -32,11 +49,11 @@ const Experience = ({ theme }) => {
       </div>
 
       <div className="experience-grids">
-        {/* Frontend / Fullstack Card */}
+        {/* Full Stack Card */}
         <div className="glass-card experience-box">
-          <h3 className="experience-box-title">Web Development</h3>
+          <h3 className="experience-box-title">Full-Stack Development</h3>
           <div className="skills-grid">
-            {webSkills.map((skill, index) => (
+            {fullStackSkills.map((skill, index) => (
               <div key={index} className="skill-item">
                 <div className="skill-icon-wrap">
                   <img src={checkIcon} alt="Verified Skill" />
@@ -48,11 +65,43 @@ const Experience = ({ theme }) => {
           </div>
         </div>
 
-        {/* Game Development Card */}
+        {/* AI Card */}
+        <div className="glass-card experience-box">
+          <h3 className="experience-box-title">AI Engineering</h3>
+          <div className="skills-grid">
+            {aiSkills.map((skill, index) => (
+              <div key={index} className="skill-item">
+                <div className="skill-icon-wrap">
+                  <img src={checkIcon} alt="Verified Skill" />
+                </div>
+                <div className="skill-name">{skill.name}</div>
+                <div className="skill-level">{skill.level}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Game Dev Card */}
         <div className="glass-card experience-box">
           <h3 className="experience-box-title">Game Development</h3>
           <div className="skills-grid">
             {gameSkills.map((skill, index) => (
+              <div key={index} className="skill-item">
+                <div className="skill-icon-wrap">
+                  <img src={checkIcon} alt="Verified Skill" />
+                </div>
+                <div className="skill-name">{skill.name}</div>
+                <div className="skill-level">{skill.level}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Languages Card */}
+        <div className="glass-card experience-box">
+          <h3 className="experience-box-title">Programming Languages</h3>
+          <div className="skills-grid">
+            {programmingLanguages.map((skill, index) => (
               <div key={index} className="skill-item">
                 <div className="skill-icon-wrap">
                   <img src={checkIcon} alt="Verified Skill" />

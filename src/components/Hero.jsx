@@ -10,7 +10,13 @@ const Hero = ({ theme }) => {
   const githubIcon = theme === 'dark' ? githubDark : githubLight;
 
   // Typing Effect State
-  const roles = ['Full-Stack Web Developer', 'Unity Game Developer', 'Software Engineer'];
+  const roles = [
+    'Aspiring AI Engineer',
+    'Full-Stack Developer',
+    'Product Builder',
+    'Game Developer',
+    'Content Creator'
+  ];
   const [roleIndex, setRoleIndex] = useState(0);
   const [displayText, setDisplayText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
@@ -58,8 +64,8 @@ const Hero = ({ theme }) => {
           <span className="typing-cursor">|</span>
         </p>
         <p className="hero-desc">
-          I build high-performance 2D/3D games and modern, interactive web applications. 
-          Currently creating optimized solutions with Unity, React, and modern backend architectures.
+          I am a Computer Science graduate passionate about building intelligent products that combine 
+          software engineering, artificial intelligence, and great user experiences.
         </p>
         
         <div className="hero-cta">

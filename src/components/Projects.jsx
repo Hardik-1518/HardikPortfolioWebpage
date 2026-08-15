@@ -32,7 +32,7 @@ const Projects = ({ theme, onPlaySnake }) => {
       category: 'web',
       primaryLink: 'https://varta-gram.vercel.app/',
       primaryLabel: 'Live Demo',
-      secondaryLink: 'https://github.com/Hardik-1518',
+      secondaryLink: 'https://github.com/Hardik-1518/VartaGram',
       secondaryLabel: 'GitHub',
       playable: false,
     },

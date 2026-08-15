@@ -39,7 +39,7 @@ const Projects = ({ theme, onPlaySnake }) => {
     {
       title: 'Indian Car Racing 3D',
       image: project2,
-      desc: 'An immersive 3D racing simulator designed and developed in Unity. Features realistic physics-based vehicle dynamics, obstacle avoidance, and responsive driving controls optimized for mobile and desktop.',
+      desc: 'An immersive 3D racing simulator designed and developed in Unity. Features realistic physics-based vehicle dynamics, obstacle avoidance, and responsive driving controls optimized for mobile and desktop. Work on this Project during my intership at AJ Global Networks Pvt. Ltd. and published on Google Play Store.',
       tags: ['Unity', 'C# Scripting', '3D Graphics', 'Game Design', 'Google Play'],
       category: 'game',
       primaryLink: 'https://play.google.com/store/apps/details?id=com.ANSHJAINGLOBALNETWORS.ICR&pcampaignid=web_share',

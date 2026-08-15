@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import profilePic from '../assets/profile-pic (2).png';
+import profilePic from '../assets/profile-pic.jpg';
 import linkedinLight from '../assets/linkedin_light.png';
 import linkedinDark from '../assets/linkedin_dark.png';
 import githubLight from '../assets/github_light.png';

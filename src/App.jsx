@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import SnakeGame from './components/SnakeGame';
+import YouTubeVideos from './components/YouTubeVideos';
 
 function App() {
   const [theme, setTheme] = useState(() => {
@@ -54,6 +55,7 @@ function App() {
         <Experience theme={theme} />
         <Projects theme={theme} onPlaySnake={() => setIsSnakeOpen(true)} />
         <Contact theme={theme} />
+        <YouTubeVideos />
       </main>
 
       <Footer />

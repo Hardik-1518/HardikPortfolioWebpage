@@ -1,5 +1,5 @@
 import React from 'react';
-import aboutPic from '../assets/about-pic2.png';
+import aboutPic from '../assets/about-pic.jpg';
 import experienceLight from '../assets/experience_light.png';
 import experienceDark from '../assets/experience_dark.png';
 import educationLight from '../assets/education_light.png';

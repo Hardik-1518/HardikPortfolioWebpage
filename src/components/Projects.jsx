@@ -44,8 +44,8 @@ const Projects = ({ theme, onPlaySnake }) => {
       category: 'game',
       primaryLink: 'https://play.google.com/store/apps/details?id=com.ANSHJAINGLOBALNETWORS.ICR&pcampaignid=web_share',
       primaryLabel: 'Google Play',
-      secondaryLink: 'https://github.com/Hardik-1518',
-      secondaryLabel: 'GitHub',
+      secondaryLink: null,
+      secondaryLabel: null,
       playable: false,
     },
     {
